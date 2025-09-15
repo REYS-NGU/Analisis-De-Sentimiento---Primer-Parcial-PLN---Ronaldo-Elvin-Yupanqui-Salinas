@@ -1,0 +1,22 @@
+project_name: dietas-sentimiento
+
+paths:
+  data: data
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  reports: reports
+
+preprocess:
+  lemmatize: true
+  keep_emojis: true
+  negation_window: 3
+  stopwords: true
+
+aspects: [hambre, energía, adherencia, costo, social]
+
+model:
+  transformer_model: dccuchile/bert-base-spanish-wwm-cased
+  max_length: 256
+  batch_size: 16
+  epochs: 3

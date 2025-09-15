@@ -1,0 +1,25 @@
+# Core
+pandas
+numpy
+scikit-learn
+matplotlib
+# NLP
+spacy
+es-core-news-md @ https://github.com/explosion/spacy-models/releases/download/es_core_news_md-3.7.0/es_core_news_md-3.7.0-py3-none-any.whl
+emoji
+# Data collection
+beautifulsoup4
+requests
+feedparser
+langdetect
+python-dotenv
+# Transformers / Datasets
+transformers
+datasets
+# Topic modeling
+gensim
+bertopic
+umap-learn
+hdbscan
+# Optional collectors
+google-play-scraper

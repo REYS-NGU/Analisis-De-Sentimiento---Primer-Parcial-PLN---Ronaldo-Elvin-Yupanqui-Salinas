@@ -1,0 +1,11 @@
+{
+  "model_id": "dccuchile/bert-base-spanish-wwm-cased",
+  "labels": [
+    "neg",
+    "neu",
+    "pos"
+  ],
+  "max_length": 256,
+  "split": "stratified(ClassLabel)",
+  "api": "old_api"
+}
